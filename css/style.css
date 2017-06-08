@@ -1,0 +1,28 @@
+body{
+    background-color: antiquewhite;
+}
+
+h1 {
+    background-color: crimson;
+}
+
+div {
+    background-color: lightblue;
+}
+
+p {
+    background-color: yellow;
+}
+
+.emp{
+    color: indianred;
+    padding: 10px;
+    border: solid aquamarine 1px;
+}
+
+#test{
+    padding: 30px;
+    margin: 15px;
+    border: dashed black 1px;
+}
+

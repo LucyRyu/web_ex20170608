@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>my first html file</title>
+
+    <script>
+        function btnClicked(){
+            //alert("hi");
+            var greetElement = document.getElementById("greet");
+            greetElement.innerHTML = "您好";
+
+            var buttonElement = document.getElementById("button");
+            buttonElement.innerHTML = "한국어로 번역";
+
+        }
+    </script>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+<h1 style="color: blueviolet">hello world</h1>
+<h2 id="greet">안녕하세요</h2>
+<h3 style="color:blue;">Thank you</h3>
+<button id="button" onclick="btnClicked()">중국어로 번역</button>
+<h1 class="emp">This is heading...</h1>
+<h2 id="test">This is heading...</h2>
+<h3>This is heading...</h3>
+<hr>
+<h4>This is heading...</h4>
+<h5>This is heading...</h5>
+<h6>This is heading...</h6>
+
+<p title="tooltip">This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+<a href="https://www.naver.com">네이버로</a>
+
+<img src="w3schools.png" alt="W3Schools.com" width="104" height="142">
+
+
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+
+<form>
+    <input type="text" value="kim">
+    <br>
+    <!-- radio-->
+    <input type="radio" name="lastname" value="1" checked> 개별<br>
+    <input type="radio" name="lastname" value="2" checked> 개별<br>
+    <input type="radio" name="lastname" value="3" checked> 개별<br>
+
+
+</form>
+
+
+</body>
+</html>
